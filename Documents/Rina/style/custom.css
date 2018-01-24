@@ -1,0 +1,1253 @@
+/* == GLOBAL ==*/
+/* == Slider global */
+/* == BTN ==*/
+/* == Header ==*/
+/* == Home ==*/
+/* == About US ==*/
+/* == Services == */
+/* == Products == */
+/* == Product Page ==*/
+/* == News == */
+/* == Career == */
+/* == Contact Us */
+/* == Get in Touch ==*/
+/* == Subscribe == */
+/* == Footer ==*/
+/* == 404 page and Modal== */
+/* == Media== */
+@font-face {
+  font-family: 'Colfax';
+  src: url('./fonts/Colfax-Regular.otf') format("opentype");;
+}
+@font-face {
+  font-family: 'Colfax-Medium';
+  src: url('./fonts/Colfax-Medium.otf') format("opentype");;
+}
+
+/* ============ Global ========== */
+body{
+  font-family: 'Colfax';
+  color: #677381;
+}
+img{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+a{
+  color: inherit;
+}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Colfax-Medium';
+  font-weight: 500;
+}
+h1{
+	font-size: 56px;
+	letter-spacing: -2px;
+	text-align: left;
+  color: #fff;
+  margin: 0 0 45px;
+}
+h2{
+	font-size: 28px;
+	font-weight: 500;
+	letter-spacing: -0.7px;
+	text-align: left;
+  color: #27384b;
+  position: relative;
+  margin-bottom: 16px;
+}
+h3{
+	font-size: 56px;
+	letter-spacing: -2px;
+  color: #27384b;
+  margin: 0 0 36px;
+}
+h3.contact{
+  margin: 0 0 40px;
+  text-align: center;
+}
+.h3-inlineBlock{
+  display: inline-block;
+  padding: 16px 16px 8px;
+  background-color: #fff;
+}
+.h3-shadow{
+  box-shadow: 0 20px 200px 0 rgba(45, 68, 88, 0.06);
+}
+h4{
+  font-size: 28px;
+	line-height: 2.0;
+  letter-spacing: -0.7px;
+  color: #27384b;
+}
+h5{
+  font-size: 24px;
+	font-weight: 500;
+	line-height: 1.33;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #27384b;
+}
+.title-blue{
+  font-family: 'Colfax-Medium';
+  font-size: 24px;
+	font-weight: 500;
+	line-height: 1.33;
+	letter-spacing: -0.8px;
+  color: #005bea;
+  margin-bottom: 32px;
+}
+.img-shadow{
+  box-shadow: 0 12px 44px 0 rgba(38, 41, 43, 0.26);
+}
+.no-padding{
+  padding: 0;
+}
+.section-text{
+	font-size: 18px;
+	line-height: 1.78;
+	text-align: left;
+  color: #677381;
+}
+.text-grey{
+  color: #677381;
+}
+.color-pearl{
+  background-color: #f4f6f8;
+}
+.bg-image{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.visible{
+  overflow: visible;
+}
+.section-img{
+  width: 614px;
+}
+.section-text-left{
+  padding-left: 16px;
+}
+.products, .news, .career{
+  padding: 0 0 236px;
+}
+/* ========== End Global ======= */
+
+/* ========== Slider global ==== */
+.slick-prev:before, .slick-next:before{
+  font-family: FontAwesome;
+  font-size: 13px;
+  color: #005bea;
+}
+.slick-prev, .slick-next{
+  width: 77px;
+  height: 77px;
+  background-color: #fff;
+  top: 30%;
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.06);
+}
+.slick-prev {
+  left: -193px;
+}
+.slick-next {
+  right: -196px;
+}
+.slick-prev:before{
+  content:"\f0d9";
+}
+.slick-next:before{
+  content:"\f0da";
+}
+.slick-dots li button:before{
+  font-size: 8px;
+	color:#0f65ec;
+}
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color:#0f65ec;
+}
+.career-block, .products-title{
+  width: 100%;
+  max-width: 1027px;
+}
+/* ==== End Slider global ========*/
+
+/* =========== BTN ============= */
+.btn{
+  font-family: 'Colfax-Medium';
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn-nav{
+  padding: 9px 13px 6px;
+	border: solid 1px #005bea;
+  color: #005bea;
+  line-height: 1;
+  letter-spacing: 0.1px;
+}
+.btn-nav:hover{
+  color:#fff;
+  background-color: #005bea;
+}
+.btn-blue{
+  border-radius: 4px;
+  background-color: #005bea;
+  color: #fff;
+  line-height: 2.0;
+  text-align: center;
+  padding: 12px 32px ;
+  margin-top: 25px;
+  border: 1px solid #005bea;
+}
+.btn-blue:hover{
+  background-color: #fff;
+  color: #005bea;
+}
+.btn-cv{
+  width: 112px;
+  height: 40px;
+  padding: 10px 0;
+  font-family: 'Colfax-Medium';
+	border-radius: 4px;
+  border: solid 1px #677381;
+  font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+  color: #27384b;
+  margin-top: 12px;
+}
+.btn-profucts{
+  border-radius: 4px;
+  border: solid 1px #677381;
+  background-color: inherit;
+}
+
+.btn-profucts {
+  font-family: 'Colfax-Medium';
+  padding: 20px 31px;
+  font-size: 16px;
+	font-weight: 500;
+	line-height: 2.0;
+	text-align: center;
+  color: #27384b;
+}
+.btn-profucts:hover {
+  background-color: #005bea;
+  color: #fff;
+}
+.navbar-nav .nav-link:hover,
+.footer-nav .nav-link:hover,
+.navbar-nav .nav-link.active,
+.dropdown-item:hover{
+  color:#005bea;
+}
+
+.white-nav .navbar-nav .nav-link{
+  color: #fff;
+}
+.white-nav .navbar-nav .nav-link:hover{
+  color:#27384b;
+}
+.white-nav .btn-nav{
+  background-color: inherit;
+  border-color: #fff;
+  color: #fff;
+}
+.white-nav .btn-nav:hover{
+  border-color: #005bea;
+  color: #005bea;
+}
+/* =========== END BTN ========== */
+
+/* ============= Header ========== */
+/* Home header add class "white-nav" to nav tag*/
+header{
+  padding: 56px 49px 64px 64px;
+  z-index: 2;
+  position: relative;
+}
+.navbar, .navbar-brand{
+  padding: 0;
+}
+.navbar-nav .nav-link {
+  font-family: 'Colfax-Medium';
+  font-size: 16px;
+	font-weight: 500;
+  letter-spacing: 0.1px;
+  margin-right: 19px;
+  color: #27384b;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 0px;
+}
+.logo{
+  width: 150px;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+}
+.tagline{
+  padding: 320px 0 396px;
+  position: relative;
+  margin-top: -170px;
+  margin-bottom: -170px;
+  background-image: url(./../img/bg-home.jpg);
+}
+.tagline-title{
+  margin: 0 0 55px;
+}
+.tagline-text{
+  font-size: 24px;
+	line-height: 1.33;
+  letter-spacing: -0.8px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.tagline .texture-bg{
+  left: 0;
+  right: 0;
+  top: -100px;
+}
+/* ============= End Header============= */
+
+/* ============= Home ================== */
+.rina-systems{
+  padding: 147px 0 131px;
+}
+.rina-systems .section-img{
+  width: 835px;
+  left: 95px;
+  top: 57px;
+}
+.our-products{
+  padding: 152px 0 70px;
+}
+.our-products .texture-bg{
+  margin: 0;
+  bottom: 171px;
+}
+.our-products .texture-bg.texture-bg-left{
+  left: -310px;
+}
+.our-products .texture-bg.texture-bg-right{
+  right: -310px;
+}
+.our-products .h3-inlineBlock{
+  box-shadow: 0 20px 100px 0 rgba(45, 68, 88, 0.08);
+  margin-bottom: 101px;
+}
+.our-products-box{
+  padding: 0 30px 16px;
+  margin-bottom: 60px;
+  box-shadow: 0 20px 100px 0 rgba(45, 68, 88, 0.08);
+  cursor: pointer;
+}
+.our-products-box-img img{
+  -webkit-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
+}
+.our-products-box:hover .our-products-box-img img{
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.our-products-img{
+  top: -21px;
+  position: relative;
+  overflow: hidden;
+  max-height: 163px
+}
+.our-products-icon{
+  width: 48px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.partners{
+  padding: 72px 0;
+}
+.flex-partners{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.partners-block{
+  opacity: .5;
+}
+.partners-block:hover{
+  opacity: 1;
+  cursor: default;
+}
+.latest-news{
+  padding: 150px 0 250px;
+}
+.news-slider .time{
+  font-family: 'Colfax-Medium';
+  font-size: 24px;
+	font-weight: 500;
+	line-height: 1.67;
+  letter-spacing: -0.9px;
+  color: #27384b;
+  margin-bottom: 16px;
+}  
+/* =========== End Home =============== */
+
+/* ========== About US ================ */
+.texture-bg{
+  position: absolute;
+  width: 439px;
+  height: 268px;
+  overflow: hidden;
+  margin-top: 62px;
+}
+.texture-bg-left{
+  right: 30px;
+}
+.about-us{
+  padding: 160px 0;
+  background-image: url(./../img/bg-image-office.jpg);
+}
+.about-us .section-img{
+  left: 106px;
+}
+.expertise{
+  padding: 120px 0 198px;
+}
+.expertise h2{
+  margin-top: 71px;
+}
+.expertise .section-img{
+  right: 136px;
+}
+.software{
+  padding: 110px 0;
+  background-image: url(./../img/bg-software.jpg);
+}
+.software .section-text p{
+  max-width: 370px;
+}
+.software .texture-bg{
+  margin: 0px;
+  top: 43px;
+  left: -231px;
+}  
+.software h2::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 81px;
+	height: 4px;
+  background-color: #eaeef2;
+  left: -94px;
+  top: 23px;
+}
+.software-list{
+  position: relative;
+  margin-bottom: 6px;
+}
+.software-list::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 13px;
+	height: 13px;
+  background-color: #0766ed;
+  left: -28px;
+  top: 5px;
+}
+/* ===========  End About US ============= */
+
+/* ===========  Services ================= */
+.services{
+  padding: 10px 0 94px;
+}
+.services .texture-bg{
+  margin: 0;
+  bottom: -242px;
+  left: 130px;
+}
+.services .section-text p:last-child{
+  margin:  70px 0 0;
+}
+.services-left{
+  position: relative;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+.services-back{
+  width: 614px;
+}
+.services-front{
+  position: absolute;
+  width: 717px;
+  top: 37px;
+  left: 37px;
+}
+.services-slider .slick-slide{
+  width: 945px;
+  margin: 0 72px 50px;
+  padding: 167px 57px 40px 135px;
+  box-shadow: 0 20px 100px 0 rgba(45, 68, 88, 0.08);
+  opacity: .4;
+}
+.services-slider .slick-slide.slick-current{
+  opacity: 1;
+} 
+.services-slider .slider-title{
+  font-family: 'Colfax-Medium';
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.33;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #27384b;
+}
+.services-slider .slick-slide:nth-child(even){
+  width: 849px;
+}
+.services-slider .slick-next{
+  z-index: 2;
+  right: 50%;
+  margin-right: -580px;
+} 
+.services-slider .slick-prev{
+  z-index: 2;
+  left: 50%;
+  margin-left: -580px;
+}
+.slider-top{
+  position: relative;
+} 
+.slider-icon{
+  width: 48px;
+  height: auto;
+  position: absolute;
+  top: -10px;
+  left: -64px;
+} 
+.slider-num{
+  color: #27384b;
+  position: absolute;
+  font-family: 'Colfax-Medium';
+  font-size: 167px;
+  line-height: 0;
+  top: -20px;
+  opacity: .2;
+}
+.solutions{
+  padding: 126px 0 269px;
+}
+.solutions h3{
+  font-size: 32px;
+	font-weight: 500;
+	line-height: 1.75;
+  letter-spacing: -0.8px;
+  margin-bottom: 56px;
+}
+.solutions .partners-block{
+  opacity: 1;
+}
+/* ===========  End Services ============= */
+
+/* =========== Products ================== */
+
+.products-title{
+  margin-bottom: 55px;
+}
+.products-block{
+  box-shadow: 0 20px 100px 0 rgba(45, 68, 88, 0.08);
+  margin-bottom: 32px;
+  margin-left: -15px;
+  cursor: pointer;
+}
+.img-product-block{
+  overflow: hidden;
+}
+.img-product{
+  position: relative;
+}
+.products-text{
+  padding: 42px 70px 40px 54px;
+}
+.btn-profucts-block{
+  margin-top: 79px;
+}
+.our-product-box-img img{
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.our-product-box-img{
+  overflow: hidden;
+  max-height: 197px;
+  margin-left: -15px;
+}
+.products-block:hover .our-product-box-img img{
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* =========== End Products ============== */
+
+/* =========== Product Page ============== */
+.rinalogy-search{
+  background-image: url(./../img/product-1.jpg);
+}
+.rinalogy-api{
+  background-image: url(./../img/product-2.jpg);
+}
+.sentioAI{
+  background-image: url(./../img/product-3.jpg);
+}
+.document-maestro{
+  background-image: url(./../img/product-4.jpg);
+}
+.pcard-audit-tool{
+  background-image: url(./../img/product-5.jpg);
+}
+.pcard-office{
+  background-image: url(./../img/product-6.jpg);
+}
+.product-page{
+  padding: 33px 0 248px;
+}
+.product-page-header{
+  position: relative;
+  background-size: cover;
+}
+.product-page-header h3{
+  margin: 281px auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.product-page-header .texture-bg{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 0;
+}
+.product-page-width{
+  width: 100%;
+  max-width: 754px;
+}
+.product-page-text-block{
+  margin: 48px 0 0;
+  font-size: 18px;
+  line-height: 1.78;
+}
+.page-text-margin{
+  margin-bottom: 60px
+}
+.product-page-text-block p:last-child{
+  margin-bottom: 0;
+}
+.product-media{
+  margin-bottom: 12px;
+  margin-top: 48px;
+}
+.product-box{
+  margin-top: 91px;
+}
+/* ===========End Product Page =========== */
+
+
+/* =============== News ================== */
+.news-block{
+  width: 100%;
+  max-width: 1042px;
+  padding: 0 16px 0;
+  margin: 35px 0;
+}
+.news-block .date time{
+  font-family: 'Colfax-Medium';
+  font-size: 24px;
+	font-weight: 500;
+	line-height: 1.67;
+	letter-spacing: -0.9px;
+	color: #27384b;
+}
+.title-news{
+  font-family: 'Colfax-Medium';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: -0.8px;
+  color: #005bea;
+  margin-bottom: 32px;
+}
+/* =============== End News ============== */
+
+/* =============== Career ================ */
+.career .email{
+  color: #0766ed;
+}
+.vacancy{
+  margin-top: 55px;
+}
+.vacancy-block{
+  padding: 24px 32px;
+  margin-bottom: 20px;
+  box-shadow: 0 20px 100px 0 rgba(45, 68, 88, 0.08);
+}
+.vacancy-block .title-blue{
+  margin-bottom: 16px;
+}
+/* =============== End Career ============ */
+
+/* =========== Contact Us ================ */
+.contact-us{
+  padding: 0;
+}
+.contact-us-page{
+  position: relative;
+  max-height: 576px;
+  height: 576px;
+  background-image: url(./../img/bg-contact-us-page.jpg);
+}
+.contact-us-page {
+  position: relative;
+}
+.contact-us-page section{
+  background-color: inherit;
+}
+.contact-us-page .contact-box.get-in-touch,
+.contact-us-page .contact-box.our-contacts{
+  width: 100%;
+  background-image: none;
+  margin: -65px auto;
+  height: 560px;
+}
+.contact-us-page .get-in-touch-bg{
+  height: auto;
+}
+.contact-us-page h3.contact{
+  font-size: 28px;
+	letter-spacing: -0.7px;
+	text-align: left;
+	color: #27384b;
+}
+.our-contacts{
+  z-index: 1;
+}
+.contact-us-page .contact-box{
+  position: relative;
+  padding: 70px 48px 48px;
+}
+.contact-us-page .btn-blue{
+  display: block;
+}
+.contact-us-page .our-contacts {
+  padding: 70px 48px 48px 96px;
+}
+.contact-info{
+  margin-left: 30px;
+  font-size: 20px;
+	line-height: 1.6;
+  color: #677381;
+  position: relative;
+}
+.contact-box .contact-info p{
+  margin: 0 0 13px;
+}
+.phone-info.contact-info{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.mail-info.contact-info{
+  margin-bottom: 20px;
+}
+.contact-us-page .our-contacts i{
+  position: absolute;
+  width: 17px;
+  left: -30px;
+}
+#map{
+  width: 100%;
+  height: 490px;
+}
+/* =========== End Contact Us ============= */
+
+/* =========== Get in Touch ============== */
+.get-in-touch-bg{
+  position: relative;
+  max-height: 576px;
+  height: 576px;
+  background-image: url(./../img/bg-footer.jpg);
+}
+.contact-box.get-in-touch{
+  width: 621px;
+  margin: -76px auto;
+}  
+.contact-box{
+  height: auto;
+  position: absolute;
+  box-sizing: border-box;
+	background-color: #fff;
+  box-shadow: 0 34px 56px 0 rgba(38, 41, 43, 0.26);
+  top: 0;
+  left: 0;
+  right: 0;
+  border-top: 2px solid #005bea;
+  padding: 56px 48px 48px;
+}
+.contact-box p{
+  font-size: 16px;
+  line-height: 1.62;
+  margin: 0 0 22px;
+}
+.contact-box .form-control{
+  padding: 12px 17px;
+  border-radius: 4px;
+  border: solid 1px #eaeef2;
+  line-height: 2;
+}
+.contact-box textarea{
+  height: 103px;
+  resize: none;
+}
+/* ========= End Get in Touch ============ */
+
+/* =========== Subscribe ================= */
+.subscribe-bg, .work-with-us-bg{
+  position: relative;
+  max-height: 318px;
+  height: 318px;
+}
+.contact-box.subscribe{
+  width: 777px;
+  margin: -110px auto;
+}
+.subscribe .btn-blue{
+  min-width: 141px;
+  margin-top: 0px;
+}
+.btn-cv i{
+  margin-right: 6px;
+}
+.subscribe-bg{
+  background-image: url(./../img/subscribe-bg.jpg);
+}
+.work-with-us-bg{
+  background-image: url(./../img/work-with-us-bg.jpg);
+}
+/* =========== End Subscribe ============= */
+
+/* ============= Footer ================== */
+.footer-bottom{
+  padding: 50px 64px; 
+}
+footer .nav-link{
+  font-family: 'Colfax-Medium';
+  font-size: 16px;
+	font-weight: 500;
+  letter-spacing: 0.1px;
+  color: #677381;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+.copyright{
+  font-size: 14px;
+	letter-spacing: 0.1px;
+}
+.footer-nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} 
+.social{
+  font-size: 18px;
+}
+.form-control:focus{
+  border-color:#005bea;
+} 
+/* =============End Footer ======= */
+
+/* ======== 404 page and Modal ============= */
+.page404{
+  padding: 100px 0 80px;
+}
+#myModal .contact-box.get-in-touch{
+  width: 621px;
+  margin: 0 auto;
+}
+.close-modal{
+  width: 18px;
+  height: 18px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  right: 25px;
+  top: 25px;
+}
+#myModal .close-modal{
+  display: block;
+}
+.modal-dialog {
+  max-width: 621px;
+}
+.close-modal{
+  cursor: pointer;
+}
+/* ======== End 404 page and Modal ========= */
+
+
+/* ================== Media ================= */
+
+@media screen and (max-width: 1199px){
+  header{
+    padding: 56px 25px 64px 25px;
+  }
+  .footer-bottom {
+    padding: 50px 25px;
+  }
+  .copyright{
+    text-align: center;
+  }
+  .our-products-box h4{
+    text-align: center;
+    line-height: 1.2;
+  }
+  .partners-block {
+    width: 50px;
+  }
+  .expertise .section-img {
+    left: -200px;
+  }
+  .software h2::before {
+    content: none;
+  }
+  .services-slider .slick-slide {
+    padding: 102px 37px 20px 105px;
+  }
+  .slick-prev, 
+  .slick-next {
+    opacity: 0;
+    z-index: 0;
+  }
+  .our-products .texture-bg.texture-bg-left,
+  .our-products .texture-bg.texture-bg-right{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .navbar-toggler-icon{
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-toggler-icon .fa-bars{
+    font-size: 40px;
+    color: #005bea;
+  }
+  .navbar-nav{
+    text-align: right;
+  }
+  .white-nav .navbar-nav .nav-link,
+  .navbar-nav .nav-link{
+    color: #27384b;
+    font-size: 22px;
+  }
+  .tagline{
+    margin-top: 0;
+  }
+  header {
+    padding: 50px 25px;
+  }
+  .dropdown-menu {
+    border: 0px;
+    text-align: right;
+    font-size: 20px;
+  }
+  .rina-systems .section-img {
+    width: 600px;
+    left: 50%;
+    top: -120px;
+    position: absolute;
+  }
+  .tagline {
+    padding: 240px 0 296px;
+  }
+  .btn-nav{
+    float: right;
+    width: 185px;
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  .white-nav .btn-nav{
+    border: solid 1px #005bea;
+    color: #005bea;
+  }
+  .about-us .section-img {
+    left: 45px;
+  }
+  .expertise .section-img{
+    width: 500px;
+  }
+  .our-product-box-img{
+    margin-left: 0;
+  }
+  .products-text {
+    padding: 12px;
+  }
+  h3,h1{
+    font-size: 50px;
+  }
+  h2{
+    font-size: 26px;
+  }
+  .expertise h2 {
+    margin-top: 40px;
+  }
+  .product-page-header h3 {
+    margin: 181px auto;
+  } 
+  .contact-us-page .contact-box.our-contacts { 
+    width: 500px;
+    margin: -50px auto;
+    padding: 52px 40px 40px 100px;
+    height: auto;
+  }
+  .contact-us-page .contact-box.get-in-touch{
+    display: none;
+  }
+  .contact-us-page{
+    height: 500px;
+  }
+  .footer-nav-list{
+    display: none;
+  }
+  .copyright{
+    text-align: left;
+  }
+  .services-slider .slick-slide{
+    width: 700px;
+  }
+  .services-slider .slick-slide:nth-child(even) {
+    width: 700px;
+  }
+  .services-left {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 120px;
+  }
+  .solutions {
+    padding: 76px 0 219px;
+  }
+  .partners {
+    padding: 32px 0;
+  } 
+  .img-404{
+    display: none;
+  }
+  .page404 {
+    text-align: center;
+  }
+  .page404 h5{
+    text-align: center;
+  }
+
+}  
+  @media screen and (max-width: 767px){
+  .tagline {
+    padding: 140px 0 246px;
+  }
+  .rina-systems {
+    padding: 97px 0 81px;
+  }
+  .our-products {
+    padding: 102px 0 40px;
+  }
+  .partners {
+    padding: 42px 0;
+  }
+  .latest-news {
+    padding: 100px 0 200px;
+  }
+  .contact-box.get-in-touch {
+    width: 90%;
+  }
+  .about-us {
+    padding: 110px 0;
+  }
+  .about-us .texture-bg,
+  expertise .texture-bg{
+    display: none;
+  }  
+  .about-us .section-img {
+    left: 0;
+    width: 100%;
+    margin-top: 30px;
+  }  
+  .software .section-text p {
+    max-width: 100%;
+    width: 100%;
+  }
+  .software-list-box{
+    margin-left: 25px;
+  }
+  .software {
+    padding: 80px 0;
+  } 
+  .expertise {
+    padding: 70px 0 148px;
+  } 
+  .expertise .section-img{
+    left: 0;
+    width: 100%;
+  }
+  .contact-box.subscribe {
+    width: 90%;
+    margin: -160px auto;
+  }
+  .contact-box .form-control{
+    margin-bottom: 20px;
+  }
+  .services-front,.services-back{
+    width: 100%;
+  }
+  .services-slider .slick-slide {
+    padding: 88px 20px 20px 85px;
+  }
+  .slider-num {
+    font-size: 77px;
+    top: -4px;
+  }  
+  .slider-icon {
+    width: 30px;
+    top: -10px;
+    left: -50px;
+  }
+  .services-slider .slick-slide{
+    width: 576px;
+  }
+  .services-slider .slick-slide:nth-child(even) {
+    width: 576px;
+  } 
+  .services .texture-bg{
+    display: none;
+  }
+  .services {
+    padding: 10px 0 14px;
+  }
+  .product-page {
+    padding: 33px 0 148px;
+  }
+  #myModal .contact-box.get-in-touch{
+    width: 100%;
+  }
+  .subscribe .btn-blue{
+    padding: 12px 0px;
+    text-align: center;
+  }
+
+}
+@media screen and (max-width: 576px){
+  h3, h1 {
+    font-size: 46px;
+  }
+  .partners-block {
+    width: 42px;
+  }
+  .contact-box.get-in-touch{
+    margin: -100px auto;
+  }
+  .contact-box{
+    padding: 26px 28px 28px;
+  }
+  .rina-systems .about-intro-right{
+    display: none;
+  }
+  .services-slider .slick-slide{
+    width: 320px;
+  }
+  .services-slider .slick-slide:nth-child(even) {
+    width: 320px;
+  } 
+  .services-slider .slick-slide {
+    padding: 20px 10px;
+  }
+  .slider-icon{
+    display: none;
+  }
+  .slider-num{
+    top: 50%;
+  }
+  .services-slider .slider-title{
+    text-align: center;
+  }
+  .tagline .texture-bg,
+  .texture-bg{
+    width: 100%;
+  }
+  .contact-us-page .contact-box.our-contacts{
+    width: 100%;
+    padding: 40px;
+  }
+  .subscribe .btn-blue{
+    min-width: 105px;
+    width: 105px;
+    position: absolute;
+    right: 0;
+    padding: 2px 0px;
+  }
+}
+@media screen and (max-width: 374px){
+  h3, h1 {
+    font-size: 32px;
+  }
+  h2,h4{
+    font-size: 22px;
+  }
+  h5,.title-blue,.news-slider .time,
+  .tagline-text, .services-slider .slider-title,
+  .news-block .date time, .title-news{
+    font-size: 19px;
+  } 
+  .tagline {
+    padding: 70px 0 220px;
+  }
+  .rina-systems {
+    padding: 43px 0 41px;
+  }
+  .our-products {
+    padding: 52px 0 20px;
+  }
+  .partners-block {
+    width: 30px;
+  }
+  .latest-news {
+    padding: 50px 0 200px;
+  }
+  .about-us {
+    padding: 55px 0;
+  }
+  .product-page-header h3 {
+    margin: 90px auto;
+  }
+  footer .nav-link{
+    font-size: 14px;
+    margin: 0;
+  }
+  header {
+    padding: 30px 25px;
+  }
+  .page404 {
+    padding: 60px 0 40px;
+  }
+}

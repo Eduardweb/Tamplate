@@ -1,0 +1,26 @@
+{
+  "name": "rina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduardweb/Rina.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eduardweb/Rina/issues"
+  },
+  "homepage": "https://github.com/Eduardweb/Rina#readme",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "http-server": "^0.11.1",
+    "slick-carousel": "^1.8.1",
+    "wowjs": "^1.1.3"
+  }
+}
